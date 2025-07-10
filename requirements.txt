@@ -1,4 +1,0 @@
-pandas
-scikit-learn 
-TdIdfvectorization
-cosine_similarity
