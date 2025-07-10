@@ -37,4 +37,8 @@ app.post('/get-mood-food', async (req, res) => {
   }
 });
 
+
+app.get("/healthcheck",(req,res)=>{
+res.json({status:ok})
+})
 app.listen(5000, () => console.log('Express API running on port 5000'));
